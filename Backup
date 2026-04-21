@@ -1,0 +1,1003 @@
+{
+  "exportType" : "fusionWidgets",
+  "exportVersion" : 1,
+  "requiredAddons" : [
+    "https:\/\/aiometadata.elfhosted.com\/stremio\/62485ec1-7dce-4e61-9028-39f4da6ee2f4\/manifest.json",
+    "https:\/\/aiometadata.elfhosted.com\/stremio\/c59c3d6a-a399-470a-8e17-6895e8414aab\/manifest.json",
+    "https:\/\/btttr.cc\/tVfbbuM2EP0VgU9d1JZJUfe3RRdFF2naxTZdYLEIDIocxaol0iCppEaQfy8kO2v5xkgt-mLAJs85c4bkzPgZcWZZrR4Myr8hJoSSOc4b9VhBzltjVeNz1SxZpTYVX5vlZmtXSi5buZbqSUq_3-m_fl0eNvYLu0-zLJVeblWLZicKVrO19TVw1TQgBbOVkmbHaQabDegKzJXdZqWezBlzI4q6MtZPU4qDc6rhMnWBg9QJDjIXmLqVqVvZDQ6cYJI4wcQZdhC6lSOnZ-z2TJzKsVs5uQ6mYeryTMPU4YoQjDNX4HFCsPOOxc5VR2QZJVF4FRySKCGOuCMc4uvoNIlj50UI6XUwCUmWOJYpTpLMEVq33on3r3be_Zbbx_nJ651z1fJVoyRs5_bxePeuDLyBuJ-hBixD-fP_XrzyZyRZAyhHPyvtfe3LmUU5atDLpLp24Pn8ugHEJa4RZc_FZc7jOq6KB_CdBikq-eDdvpbea8EcF84LDH_sy_HbEQTpAP8b2LKu_p4UQJBdIBivT4cZ-KSrBiapU3oGn-B9qP2hMhK2P07zTi8QjNcnyQD-frOpYZo8yc7xE9yHA_Qtm3jq0Ql4wonj4ZExzRrVSjvNOSWXOSa4jwcMv7R1O81-cooeq9x3yEHswLji6wnifQ89J7iqf7nJHghuvA-aNWwMdteAD9BfmQVjvbsvE_KO43OC6-YvNfEL5e6mEmZ8CnfN_qhog7T11ntf6TF1ezcOHPAfG1F8Upu2ZnofhDf3fuo734ho9tPD4CFXuvN0pwTbjkhpP138tybSDSD_vonsR5QDwZ8brppDCN4PdytgFrR59_YR7weasyty01_S8ab2g881njNrU-ajQaq-eJ-Pt3rfDnt9-3i_1yhONEZNVYMCu0vkaK1XsX4g4xyMQTmKghLiiLEyA5IWhSCchoXAnJYEQ0pB4DhLCyqKLM4ySFhEcQAQFFkJuMzCbgjVUGowK5SjkBQRj2ImWFlyCEQRlAUpWZAwKmKRxUSEmOGsjDlQniRFGNI0FQHncZZGcZR9P7ruH-8zanWNcrSydmPyxYJVqhsnBbPML5W2K3gCtvZ5rVqxMFZDU6lFwdOkDAidBzgu52FCo3mGmZinCY4xTyEN0nDRMFmVYKz_l1ESzb4_sY-_3-4F0Mv9DG2UsaC7bFm1QTmSSgKaoULZ7g3niLVWoRkySncJVrp6qCSr0cvLPw\/manifest.json"
+  ],
+  "widgets" : [
+    {
+      "cacheTTL" : 1800,
+      "dataSource" : {
+        "kind" : "addonCatalog",
+        "payload" : {
+          "addonId" : "https:\/\/btttr.cc\/tVfbbuM2EP0VgU9d1JZJUfe3RRdFF2naxTZdYLEIDIocxaol0iCppEaQfy8kO2v5xkgt-mLAJs85c4bkzPgZcWZZrR4Myr8hJoSSOc4b9VhBzltjVeNz1SxZpTYVX5vlZmtXSi5buZbqSUq_3-m_fl0eNvYLu0-zLJVeblWLZicKVrO19TVw1TQgBbOVkmbHaQabDegKzJXdZqWezBlzI4q6MtZPU4qDc6rhMnWBg9QJDjIXmLqVqVvZDQ6cYJI4wcQZdhC6lSOnZ-z2TJzKsVs5uQ6mYeryTMPU4YoQjDNX4HFCsPOOxc5VR2QZJVF4FRySKCGOuCMc4uvoNIlj50UI6XUwCUmWOJYpTpLMEVq33on3r3be_Zbbx_nJ651z1fJVoyRs5_bxePeuDLyBuJ-hBixD-fP_XrzyZyRZAyhHPyvtfe3LmUU5atDLpLp24Pn8ugHEJa4RZc_FZc7jOq6KB_CdBikq-eDdvpbea8EcF84LDH_sy_HbEQTpAP8b2LKu_p4UQJBdIBivT4cZ-KSrBiapU3oGn-B9qP2hMhK2P07zTi8QjNcnyQD-frOpYZo8yc7xE9yHA_Qtm3jq0Ql4wonj4ZExzRrVSjvNOSWXOSa4jwcMv7R1O81-cooeq9x3yEHswLji6wnifQ89J7iqf7nJHghuvA-aNWwMdteAD9BfmQVjvbsvE_KO43OC6-YvNfEL5e6mEmZ8CnfN_qhog7T11ntf6TF1ezcOHPAfG1F8Upu2ZnofhDf3fuo734ho9tPD4CFXuvN0pwTbjkhpP138tybSDSD_vonsR5QDwZ8brppDCN4PdytgFrR59_YR7weasyty01_S8ab2g881njNrU-ajQaq-eJ-Pt3rfDnt9-3i_1yhONEZNVYMCu0vkaK1XsX4g4xyMQTmKghLiiLEyA5IWhSCchoXAnJYEQ0pB4DhLCyqKLM4ySFhEcQAQFFkJuMzCbgjVUGowK5SjkBQRj2ImWFlyCEQRlAUpWZAwKmKRxUSEmOGsjDlQniRFGNI0FQHncZZGcZR9P7ruH-8zanWNcrSydmPyxYJVqhsnBbPML5W2K3gCtvZ5rVqxMFZDU6lFwdOkDAidBzgu52FCo3mGmZinCY4xTyEN0nDRMFmVYKz_l1ESzb4_sY-_3-4F0Mv9DG2UsaC7bFm1QTmSSgKaoULZ7g3niLVWoRkySncJVrp6qCSr0cvLPw\/manifest.json",
+          "catalogId" : "movie::addon:0:movie:mdblist.87667",
+          "type" : "movie"
+        }
+      },
+      "id" : "catalog.0C394898-F0B7-4267-AB26-8FEC33CD3670",
+      "limit" : 20,
+      "presentation" : {
+        "aspectRatio" : "poster",
+        "badges" : {
+          "providers" : false,
+          "ratings" : true
+        },
+        "cardStyle" : "medium"
+      },
+      "title" : "Trending Movies",
+      "type" : "row.classic.numbered"
+    },
+    {
+      "cacheTTL" : 1800,
+      "dataSource" : {
+        "kind" : "addonCatalog",
+        "payload" : {
+          "addonId" : "https:\/\/btttr.cc\/tVfbbuM2EP0VgU9d1JZJUfe3RRdFF2naxTZdYLEIDIocxaol0iCppEaQfy8kO2v5xkgt-mLAJs85c4bkzPgZcWZZrR4Myr8hJoSSOc4b9VhBzltjVeNz1SxZpTYVX5vlZmtXSi5buZbqSUq_3-m_fl0eNvYLu0-zLJVeblWLZicKVrO19TVw1TQgBbOVkmbHaQabDegKzJXdZqWezBlzI4q6MtZPU4qDc6rhMnWBg9QJDjIXmLqVqVvZDQ6cYJI4wcQZdhC6lSOnZ-z2TJzKsVs5uQ6mYeryTMPU4YoQjDNX4HFCsPOOxc5VR2QZJVF4FRySKCGOuCMc4uvoNIlj50UI6XUwCUmWOJYpTpLMEVq33on3r3be_Zbbx_nJ651z1fJVoyRs5_bxePeuDLyBuJ-hBixD-fP_XrzyZyRZAyhHPyvtfe3LmUU5atDLpLp24Pn8ugHEJa4RZc_FZc7jOq6KB_CdBikq-eDdvpbea8EcF84LDH_sy_HbEQTpAP8b2LKu_p4UQJBdIBivT4cZ-KSrBiapU3oGn-B9qP2hMhK2P07zTi8QjNcnyQD-frOpYZo8yc7xE9yHA_Qtm3jq0Ql4wonj4ZExzRrVSjvNOSWXOSa4jwcMv7R1O81-cooeq9x3yEHswLji6wnifQ89J7iqf7nJHghuvA-aNWwMdteAD9BfmQVjvbsvE_KO43OC6-YvNfEL5e6mEmZ8CnfN_qhog7T11ntf6TF1ezcOHPAfG1F8Upu2ZnofhDf3fuo734ho9tPD4CFXuvN0pwTbjkhpP138tybSDSD_vonsR5QDwZ8brppDCN4PdytgFrR59_YR7weasyty01_S8ab2g881njNrU-ajQaq-eJ-Pt3rfDnt9-3i_1yhONEZNVYMCu0vkaK1XsX4g4xyMQTmKghLiiLEyA5IWhSCchoXAnJYEQ0pB4DhLCyqKLM4ySFhEcQAQFFkJuMzCbgjVUGowK5SjkBQRj2ImWFlyCEQRlAUpWZAwKmKRxUSEmOGsjDlQniRFGNI0FQHncZZGcZR9P7ruH-8zanWNcrSydmPyxYJVqhsnBbPML5W2K3gCtvZ5rVqxMFZDU6lFwdOkDAidBzgu52FCo3mGmZinCY4xTyEN0nDRMFmVYKz_l1ESzb4_sY-_3-4F0Mv9DG2UsaC7bFm1QTmSSgKaoULZ7g3niLVWoRkySncJVrp6qCSr0cvLPw\/manifest.json",
+          "catalogId" : "series::addon:0:series:mdblist.88434",
+          "type" : "series"
+        }
+      },
+      "id" : "catalog.B67E24C3-6C21-48AB-9EA0-C46CC0FED684",
+      "limit" : 20,
+      "presentation" : {
+        "aspectRatio" : "poster",
+        "badges" : {
+          "providers" : false,
+          "ratings" : true
+        },
+        "cardStyle" : "medium"
+      },
+      "title" : "Trending Shows",
+      "type" : "row.classic.numbered"
+    },
+    {
+      "dataSource" : {
+        "kind" : "collection",
+        "payload" : {
+          "items" : [
+            {
+              "dataSources" : [
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/c59c3d6a-a399-470a-8e17-6895e8414aab\/manifest.json",
+                    "catalogId" : "movie::mdblist.88328",
+                    "type" : "movie"
+                  }
+                },
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/c59c3d6a-a399-470a-8e17-6895e8414aab\/manifest.json",
+                    "catalogId" : "series::mdblist.88329",
+                    "type" : "series"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "7FFE209D-D01F-402A-9B53-F0FDD1C64D36",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/UnknownnXD\/Folders\/refs\/heads\/main\/C1DBF0C9-5758-47AD-8DFC-E9DEE1E77BDE.png",
+              "title" : "Netflix"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/c59c3d6a-a399-470a-8e17-6895e8414aab\/manifest.json",
+                    "catalogId" : "movie::mdblist.88332",
+                    "type" : "movie"
+                  }
+                },
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/c59c3d6a-a399-470a-8e17-6895e8414aab\/manifest.json",
+                    "catalogId" : "series::mdblist.88333",
+                    "type" : "series"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "00596C94-EE7B-49C0-9D21-BA85E6C8E517",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/UnknownnXD\/Folders\/refs\/heads\/main\/38542B39-903B-4047-BA0F-E2514A2078FD.png",
+              "title" : "Prime Video"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/c59c3d6a-a399-470a-8e17-6895e8414aab\/manifest.json",
+                    "catalogId" : "movie::mdblist.88322",
+                    "type" : "movie"
+                  }
+                },
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/c59c3d6a-a399-470a-8e17-6895e8414aab\/manifest.json",
+                    "catalogId" : "series::mdblist.88323",
+                    "type" : "series"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "AD1C233C-5D89-43D3-B254-0741E7758D1F",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/UnknownnXD\/Folders\/refs\/heads\/main\/E165AF76-6A62-430B-A69C-1A4EC3C206B9.png",
+              "title" : "Disney+"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/c59c3d6a-a399-470a-8e17-6895e8414aab\/manifest.json",
+                    "catalogId" : "movie::mdblist.88317",
+                    "type" : "movie"
+                  }
+                },
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/c59c3d6a-a399-470a-8e17-6895e8414aab\/manifest.json",
+                    "catalogId" : "series::mdblist.88319",
+                    "type" : "series"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "484C9199-BCC3-43FF-8874-02A0B655852E",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/UnknownnXD\/Folders\/refs\/heads\/main\/71E6A74A-5992-48A8-8F49-79780ED0189D.png",
+              "title" : "Apple TV+"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/c59c3d6a-a399-470a-8e17-6895e8414aab\/manifest.json",
+                    "catalogId" : "anime::anilist.trending",
+                    "type" : "series"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "3F0E4B82-9827-45B1-B281-7E633C36ED24",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/UnknownnXD\/Folders\/refs\/heads\/main\/16FE7CCE-905C-400B-AEC5-B202EC28B1C6.png",
+              "title" : "Crunchyroll"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/c59c3d6a-a399-470a-8e17-6895e8414aab\/manifest.json",
+                    "catalogId" : "movie::mdblist.88324",
+                    "type" : "movie"
+                  }
+                },
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/c59c3d6a-a399-470a-8e17-6895e8414aab\/manifest.json",
+                    "catalogId" : "series::mdblist.88325",
+                    "type" : "series"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "358A2CFE-53C7-4ECF-B14A-CB90BDEBD6F5",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/UnknownnXD\/Folders\/refs\/heads\/main\/D6AFAB15-A071-4BEC-BE10-97F063395C57.png",
+              "title" : "Max"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/c59c3d6a-a399-470a-8e17-6895e8414aab\/manifest.json",
+                    "catalogId" : "movie::mdblist.88330",
+                    "type" : "movie"
+                  }
+                },
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/c59c3d6a-a399-470a-8e17-6895e8414aab\/manifest.json",
+                    "catalogId" : "series::mdblist.88331",
+                    "type" : "series"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "1837F143-7EAD-4E07-A217-19E465A22466",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/UnknownnXD\/Folders\/refs\/heads\/main\/D966E103-B058-443B-8148-A9D74812EBEB.png",
+              "title" : "Paramount+"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/c59c3d6a-a399-470a-8e17-6895e8414aab\/manifest.json",
+                    "catalogId" : "movie::mdblist.88326",
+                    "type" : "movie"
+                  }
+                },
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/c59c3d6a-a399-470a-8e17-6895e8414aab\/manifest.json",
+                    "catalogId" : "series::mdblist.88327",
+                    "type" : "series"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "4B3F45AE-290A-4260-8490-1EC4DBC00ADE",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/UnknownnXD\/Folders\/refs\/heads\/main\/0E6540D4-F99B-4B90-8125-5232D4A66ED8.png",
+              "title" : "Hulu"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/c59c3d6a-a399-470a-8e17-6895e8414aab\/manifest.json",
+                    "catalogId" : "movie::mdblist.83487",
+                    "type" : "movie"
+                  }
+                },
+                {
+                  "kind" : "addonCatalog",
+                  "payload" : {
+                    "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/c59c3d6a-a399-470a-8e17-6895e8414aab\/manifest.json",
+                    "catalogId" : "series::mdblist.83484",
+                    "type" : "series"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "2F500AD6-3DB0-4789-B309-11CB0197EF72",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/UnknownnXD\/Folders\/refs\/heads\/main\/IMG_2510.jpeg",
+              "title" : "Peacock"
+            }
+          ]
+        }
+      },
+      "id" : "collection.79FDCB49-B334-4A00-94A6-26A023D6C69D",
+      "title" : "Streaming Services",
+      "type" : "collection.row"
+    },
+    {
+      "cacheTTL" : 3600,
+      "dataSource" : {
+        "kind" : "traktList",
+        "payload" : {
+          "listName" : "Airing This Week",
+          "listSlug" : "__calendar_my_shows__",
+          "traktId" : -100,
+          "username" : "__calendar__"
+        }
+      },
+      "id" : "trakt.DA2D24FC-7CA7-478D-86BB-FD5F537E829D",
+      "limit" : 50,
+      "presentation" : {
+        "aspectRatio" : "poster",
+        "badges" : {
+          "providers" : false,
+          "ratings" : true
+        },
+        "cardStyle" : "medium"
+      },
+      "title" : "Airing This Week",
+      "type" : "row.classic"
+    },
+    {
+      "cacheTTL" : 1800,
+      "dataSource" : {
+        "kind" : "addonCatalog",
+        "payload" : {
+          "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/c59c3d6a-a399-470a-8e17-6895e8414aab\/manifest.json",
+          "catalogId" : "movie::custom.com_aiopicks_python_unknownn.movie.unknownn__aiopicks_movie_movies_for_you",
+          "type" : "movie"
+        }
+      },
+      "id" : "catalog.C111D4FA-6654-4832-80A7-223FDEEFEB0E",
+      "limit" : 20,
+      "presentation" : {
+        "aspectRatio" : "poster",
+        "badges" : {
+          "providers" : false,
+          "ratings" : true
+        },
+        "cardStyle" : "medium"
+      },
+      "title" : "For You",
+      "type" : "row.classic"
+    },
+    {
+      "cacheTTL" : 3600,
+      "dataSource" : {
+        "kind" : "traktList",
+        "payload" : {
+          "listName" : "Latest Movies",
+          "listSlug" : "latest-movies",
+          "traktId" : 30828678,
+          "username" : "tvgeniekodi"
+        }
+      },
+      "id" : "trakt.285518A8-8432-4989-BF4F-9896D09CDBCA",
+      "limit" : 50,
+      "presentation" : {
+        "aspectRatio" : "poster",
+        "badges" : {
+          "providers" : false,
+          "ratings" : true
+        },
+        "cardStyle" : "medium"
+      },
+      "title" : "Latest Movies",
+      "type" : "row.classic"
+    },
+    {
+      "cacheTTL" : 3600,
+      "dataSource" : {
+        "kind" : "traktList",
+        "payload" : {
+          "listName" : "Latest Shows",
+          "listSlug" : "latest-shows",
+          "traktId" : 31015440,
+          "username" : "tvgeniekodi"
+        }
+      },
+      "id" : "trakt.5B06C343-A11F-4C41-B35E-B42F01327E1E",
+      "limit" : 50,
+      "presentation" : {
+        "aspectRatio" : "poster",
+        "badges" : {
+          "providers" : false,
+          "ratings" : true
+        },
+        "cardStyle" : "medium"
+      },
+      "title" : "Latest TV Shows",
+      "type" : "row.classic"
+    },
+    {
+      "dataSource" : {
+        "kind" : "collection",
+        "payload" : {
+          "items" : [
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Latest Netflix Movies",
+                    "listSlug" : "latest-netflix-movies",
+                    "traktId" : 33032847,
+                    "username" : "snoak"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "55309733-209E-4B3E-B358-17C1DC5A8782",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/pub-5de9662550ff41bca7508b795bbd31bd.r2.dev\/fusion\/938a190d-68a0-48fe-a6cd-4d00a30e551b\/images\/01-latest-netflix-movies-landscape.png",
+              "title" : "Latest Netflix Movies"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Latest Amazon Prime Movies",
+                    "listSlug" : "latest-amazon-prime-movies",
+                    "traktId" : 33032854,
+                    "username" : "snoak"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "7F692396-65BE-499B-B1D4-69C70F4BFC0B",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/pub-5de9662550ff41bca7508b795bbd31bd.r2.dev\/fusion\/938a190d-68a0-48fe-a6cd-4d00a30e551b\/images\/02-latest-amazon-prime-movies-landscape.png",
+              "title" : "Latest Amazon Prime Movies"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Latest Apple TV+ Movies",
+                    "listSlug" : "latest-apple-tv-movies",
+                    "traktId" : 33032858,
+                    "username" : "snoak"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "3345C7B5-0B9B-4EAD-87F7-DE43DFD4F397",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/pub-5de9662550ff41bca7508b795bbd31bd.r2.dev\/fusion\/938a190d-68a0-48fe-a6cd-4d00a30e551b\/images\/03-latest-apple-tv-movies-landscape.png",
+              "title" : "Latest Apple TV+ Movies"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Latest Disney+ Movies",
+                    "listSlug" : "latest-disney-movies",
+                    "traktId" : 33032861,
+                    "username" : "snoak"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "133D45DA-9711-4A32-8F59-F387F2510031",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/pub-5de9662550ff41bca7508b795bbd31bd.r2.dev\/fusion\/938a190d-68a0-48fe-a6cd-4d00a30e551b\/images\/04-latest-disney-movies-landscape.png",
+              "title" : "Latest Disney+ Movies"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Latest HBO Max Movies",
+                    "listSlug" : "latest-hbo-max-movies",
+                    "traktId" : 33032875,
+                    "username" : "snoak"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "B43BC54A-698D-4522-A265-D50EC65DBDB5",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/pub-5de9662550ff41bca7508b795bbd31bd.r2.dev\/fusion\/938a190d-68a0-48fe-a6cd-4d00a30e551b\/images\/05-latest-hbo-max-movies-landscape.png",
+              "title" : "Latest HBO Max Movies"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Latest Paramount+ Movies",
+                    "listSlug" : "latest-paramount-movies",
+                    "traktId" : 33032868,
+                    "username" : "snoak"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "50FF3F29-D8FF-482C-9D9F-30ED5334B768",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/pub-5de9662550ff41bca7508b795bbd31bd.r2.dev\/fusion\/938a190d-68a0-48fe-a6cd-4d00a30e551b\/images\/06-latest-paramount-movies-landscape.png",
+              "title" : "Latest Paramount+ Movies"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Latest Hulu Movies",
+                    "listSlug" : "latest-hulu-movies",
+                    "traktId" : 33118923,
+                    "username" : "snoak"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "021B0640-3DDC-41E6-A98F-5DB4D158571A",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/pub-5de9662550ff41bca7508b795bbd31bd.r2.dev\/fusion\/938a190d-68a0-48fe-a6cd-4d00a30e551b\/images\/07-latest-hulu-movies-landscape.png",
+              "title" : "Latest Hulu Movies"
+            }
+          ]
+        }
+      },
+      "id" : "collection.F73CF990-25F3-4070-8E36-06BD0F239146",
+      "title" : "Latest Streaming Service Collection",
+      "type" : "collection.row"
+    },
+    {
+      "cacheTTL" : 1800,
+      "dataSource" : {
+        "kind" : "addonCatalog",
+        "payload" : {
+          "addonId" : "https:\/\/btttr.cc\/tVfbbuM2EP0VgU9d1JZJUfe3RRdFF2naxTZdYLEIDIocxaol0iCppEaQfy8kO2v5xkgt-mLAJs85c4bkzPgZcWZZrR4Myr8hJoSSOc4b9VhBzltjVeNz1SxZpTYVX5vlZmtXSi5buZbqSUq_3-m_fl0eNvYLu0-zLJVeblWLZicKVrO19TVw1TQgBbOVkmbHaQabDegKzJXdZqWezBlzI4q6MtZPU4qDc6rhMnWBg9QJDjIXmLqVqVvZDQ6cYJI4wcQZdhC6lSOnZ-z2TJzKsVs5uQ6mYeryTMPU4YoQjDNX4HFCsPOOxc5VR2QZJVF4FRySKCGOuCMc4uvoNIlj50UI6XUwCUmWOJYpTpLMEVq33on3r3be_Zbbx_nJ651z1fJVoyRs5_bxePeuDLyBuJ-hBixD-fP_XrzyZyRZAyhHPyvtfe3LmUU5atDLpLp24Pn8ugHEJa4RZc_FZc7jOq6KB_CdBikq-eDdvpbea8EcF84LDH_sy_HbEQTpAP8b2LKu_p4UQJBdIBivT4cZ-KSrBiapU3oGn-B9qP2hMhK2P07zTi8QjNcnyQD-frOpYZo8yc7xE9yHA_Qtm3jq0Ql4wonj4ZExzRrVSjvNOSWXOSa4jwcMv7R1O81-cooeq9x3yEHswLji6wnifQ89J7iqf7nJHghuvA-aNWwMdteAD9BfmQVjvbsvE_KO43OC6-YvNfEL5e6mEmZ8CnfN_qhog7T11ntf6TF1ezcOHPAfG1F8Upu2ZnofhDf3fuo734ho9tPD4CFXuvN0pwTbjkhpP138tybSDSD_vonsR5QDwZ8brppDCN4PdytgFrR59_YR7weasyty01_S8ab2g881njNrU-ajQaq-eJ-Pt3rfDnt9-3i_1yhONEZNVYMCu0vkaK1XsX4g4xyMQTmKghLiiLEyA5IWhSCchoXAnJYEQ0pB4DhLCyqKLM4ySFhEcQAQFFkJuMzCbgjVUGowK5SjkBQRj2ImWFlyCEQRlAUpWZAwKmKRxUSEmOGsjDlQniRFGNI0FQHncZZGcZR9P7ruH-8zanWNcrSydmPyxYJVqhsnBbPML5W2K3gCtvZ5rVqxMFZDU6lFwdOkDAidBzgu52FCo3mGmZinCY4xTyEN0nDRMFmVYKz_l1ESzb4_sY-_3-4F0Mv9DG2UsaC7bFm1QTmSSgKaoULZ7g3niLVWoRkySncJVrp6qCSr0cvLPw\/manifest.json",
+          "catalogId" : "movie::addon:0:movie:mdblist.130779",
+          "type" : "movie"
+        }
+      },
+      "id" : "catalog.9262F158-5988-48E2-A6BF-80B9FEAF6D2B",
+      "limit" : 20,
+      "presentation" : {
+        "aspectRatio" : "poster",
+        "badges" : {
+          "providers" : false,
+          "ratings" : true
+        },
+        "cardStyle" : "medium"
+      },
+      "title" : "Latest KDrama Movies",
+      "type" : "row.classic"
+    },
+    {
+      "cacheTTL" : 1800,
+      "dataSource" : {
+        "kind" : "addonCatalog",
+        "payload" : {
+          "addonId" : "https:\/\/btttr.cc\/tVfbbuM2EP0VgU9d1JZJUfe3RRdFF2naxTZdYLEIDIocxaol0iCppEaQfy8kO2v5xkgt-mLAJs85c4bkzPgZcWZZrR4Myr8hJoSSOc4b9VhBzltjVeNz1SxZpTYVX5vlZmtXSi5buZbqSUq_3-m_fl0eNvYLu0-zLJVeblWLZicKVrO19TVw1TQgBbOVkmbHaQabDegKzJXdZqWezBlzI4q6MtZPU4qDc6rhMnWBg9QJDjIXmLqVqVvZDQ6cYJI4wcQZdhC6lSOnZ-z2TJzKsVs5uQ6mYeryTMPU4YoQjDNX4HFCsPOOxc5VR2QZJVF4FRySKCGOuCMc4uvoNIlj50UI6XUwCUmWOJYpTpLMEVq33on3r3be_Zbbx_nJ651z1fJVoyRs5_bxePeuDLyBuJ-hBixD-fP_XrzyZyRZAyhHPyvtfe3LmUU5atDLpLp24Pn8ugHEJa4RZc_FZc7jOq6KB_CdBikq-eDdvpbea8EcF84LDH_sy_HbEQTpAP8b2LKu_p4UQJBdIBivT4cZ-KSrBiapU3oGn-B9qP2hMhK2P07zTi8QjNcnyQD-frOpYZo8yc7xE9yHA_Qtm3jq0Ql4wonj4ZExzRrVSjvNOSWXOSa4jwcMv7R1O81-cooeq9x3yEHswLji6wnifQ89J7iqf7nJHghuvA-aNWwMdteAD9BfmQVjvbsvE_KO43OC6-YvNfEL5e6mEmZ8CnfN_qhog7T11ntf6TF1ezcOHPAfG1F8Upu2ZnofhDf3fuo734ho9tPD4CFXuvN0pwTbjkhpP138tybSDSD_vonsR5QDwZ8brppDCN4PdytgFrR59_YR7weasyty01_S8ab2g881njNrU-ajQaq-eJ-Pt3rfDnt9-3i_1yhONEZNVYMCu0vkaK1XsX4g4xyMQTmKghLiiLEyA5IWhSCchoXAnJYEQ0pB4DhLCyqKLM4ySFhEcQAQFFkJuMzCbgjVUGowK5SjkBQRj2ImWFlyCEQRlAUpWZAwKmKRxUSEmOGsjDlQniRFGNI0FQHncZZGcZR9P7ruH-8zanWNcrSydmPyxYJVqhsnBbPML5W2K3gCtvZ5rVqxMFZDU6lFwdOkDAidBzgu52FCo3mGmZinCY4xTyEN0nDRMFmVYKz_l1ESzb4_sY-_3-4F0Mv9DG2UsaC7bFm1QTmSSgKaoULZ7g3niLVWoRkySncJVrp6qCSr0cvLPw\/manifest.json",
+          "catalogId" : "series::addon:0:series:mdblist.130777",
+          "type" : "series"
+        }
+      },
+      "id" : "catalog.03AE0779-07F7-4A99-94D2-2385E82B252F",
+      "limit" : 20,
+      "presentation" : {
+        "aspectRatio" : "poster",
+        "badges" : {
+          "providers" : false,
+          "ratings" : true
+        },
+        "cardStyle" : "medium"
+      },
+      "title" : "Latest KDrama Shows",
+      "type" : "row.classic"
+    },
+    {
+      "cacheTTL" : 1800,
+      "dataSource" : {
+        "kind" : "addonCatalog",
+        "payload" : {
+          "addonId" : "https:\/\/btttr.cc\/tVfbbuM2EP0VgU9d1JZJUfe3RRdFF2naxTZdYLEIDIocxaol0iCppEaQfy8kO2v5xkgt-mLAJs85c4bkzPgZcWZZrR4Myr8hJoSSOc4b9VhBzltjVeNz1SxZpTYVX5vlZmtXSi5buZbqSUq_3-m_fl0eNvYLu0-zLJVeblWLZicKVrO19TVw1TQgBbOVkmbHaQabDegKzJXdZqWezBlzI4q6MtZPU4qDc6rhMnWBg9QJDjIXmLqVqVvZDQ6cYJI4wcQZdhC6lSOnZ-z2TJzKsVs5uQ6mYeryTMPU4YoQjDNX4HFCsPOOxc5VR2QZJVF4FRySKCGOuCMc4uvoNIlj50UI6XUwCUmWOJYpTpLMEVq33on3r3be_Zbbx_nJ651z1fJVoyRs5_bxePeuDLyBuJ-hBixD-fP_XrzyZyRZAyhHPyvtfe3LmUU5atDLpLp24Pn8ugHEJa4RZc_FZc7jOq6KB_CdBikq-eDdvpbea8EcF84LDH_sy_HbEQTpAP8b2LKu_p4UQJBdIBivT4cZ-KSrBiapU3oGn-B9qP2hMhK2P07zTi8QjNcnyQD-frOpYZo8yc7xE9yHA_Qtm3jq0Ql4wonj4ZExzRrVSjvNOSWXOSa4jwcMv7R1O81-cooeq9x3yEHswLji6wnifQ89J7iqf7nJHghuvA-aNWwMdteAD9BfmQVjvbsvE_KO43OC6-YvNfEL5e6mEmZ8CnfN_qhog7T11ntf6TF1ezcOHPAfG1F8Upu2ZnofhDf3fuo734ho9tPD4CFXuvN0pwTbjkhpP138tybSDSD_vonsR5QDwZ8brppDCN4PdytgFrR59_YR7weasyty01_S8ab2g881njNrU-ajQaq-eJ-Pt3rfDnt9-3i_1yhONEZNVYMCu0vkaK1XsX4g4xyMQTmKghLiiLEyA5IWhSCchoXAnJYEQ0pB4DhLCyqKLM4ySFhEcQAQFFkJuMzCbgjVUGowK5SjkBQRj2ImWFlyCEQRlAUpWZAwKmKRxUSEmOGsjDlQniRFGNI0FQHncZZGcZR9P7ruH-8zanWNcrSydmPyxYJVqhsnBbPML5W2K3gCtvZ5rVqxMFZDU6lFwdOkDAidBzgu52FCo3mGmZinCY4xTyEN0nDRMFmVYKz_l1ESzb4_sY-_3-4F0Mv9DG2UsaC7bFm1QTmSSgKaoULZ7g3niLVWoRkySncJVrp6qCSr0cvLPw\/manifest.json",
+          "catalogId" : "series::addon:0:series:mdblist.150404",
+          "type" : "series"
+        }
+      },
+      "id" : "catalog.A019A17F-D0DF-4354-99EB-D7D03AED83C7",
+      "limit" : 20,
+      "presentation" : {
+        "aspectRatio" : "poster",
+        "badges" : {
+          "providers" : false,
+          "ratings" : true
+        },
+        "cardStyle" : "medium"
+      },
+      "title" : "Airing Today",
+      "type" : "row.classic"
+    },
+    {
+      "cacheTTL" : 1800,
+      "dataSource" : {
+        "kind" : "addonCatalog",
+        "payload" : {
+          "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/c59c3d6a-a399-470a-8e17-6895e8414aab\/manifest.json",
+          "catalogId" : "Anime::custom.xyz_13377001_stremthru_list.anime.st_list_anilist___this_season",
+          "type" : "series"
+        }
+      },
+      "id" : "catalog.3116FA38-1782-4831-9816-292E0E419C98",
+      "limit" : 20,
+      "presentation" : {
+        "aspectRatio" : "poster",
+        "badges" : {
+          "providers" : false,
+          "ratings" : true
+        },
+        "cardStyle" : "medium"
+      },
+      "title" : "Anime Popular This Season",
+      "type" : "row.classic"
+    },
+    {
+      "cacheTTL" : 1800,
+      "dataSource" : {
+        "kind" : "addonCatalog",
+        "payload" : {
+          "addonId" : "https:\/\/aiometadata.elfhosted.com\/stremio\/62485ec1-7dce-4e61-9028-39f4da6ee2f4\/manifest.json",
+          "catalogId" : "Anime::anilist.Watching",
+          "type" : "series"
+        }
+      },
+      "id" : "catalog.800B0912-86CB-42C6-9610-FC8725157139",
+      "limit" : 20,
+      "presentation" : {
+        "aspectRatio" : "poster",
+        "badges" : {
+          "providers" : false,
+          "ratings" : true
+        },
+        "cardStyle" : "medium"
+      },
+      "title" : "Anime Watching",
+      "type" : "row.classic"
+    },
+    {
+      "dataSource" : {
+        "kind" : "collection",
+        "payload" : {
+          "items" : [
+            {
+              "dataSources" : [
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "includeGenres" : [
+                      28
+                    ],
+                    "releaseChannel" : "digital",
+                    "releaseStatus" : "released",
+                    "sortBy" : "popularity.desc",
+                    "type" : "movie"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "3A9CDC3D-F61A-42BC-9499-7E35666D861A",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/Callandt\/Fusion2-Content\/main\/posters\/genres\/genre-action.png",
+              "title" : "Action"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "includeGenres" : [
+                      12
+                    ],
+                    "releaseChannel" : "digital",
+                    "releaseStatus" : "released",
+                    "sortBy" : "popularity.desc",
+                    "type" : "movie"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "3596024B-023B-4A54-9856-52A41EAA3495",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/Callandt\/Fusion2-Content\/main\/posters\/genres\/genre-adventure.png",
+              "title" : "Adventure"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "includeGenres" : [
+                      16
+                    ],
+                    "releaseChannel" : "digital",
+                    "releaseStatus" : "released",
+                    "sortBy" : "popularity.desc",
+                    "type" : "movie"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "242A074B-DE47-4A9F-8A0D-DDD8132B4F69",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/Callandt\/Fusion2-Content\/main\/posters\/genres\/genre-animation.png",
+              "title" : "Animation"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "includeGenres" : [
+                      35
+                    ],
+                    "releaseChannel" : "digital",
+                    "releaseStatus" : "released",
+                    "sortBy" : "popularity.desc",
+                    "type" : "movie"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "E7911A49-4090-4002-9D28-C868435766EF",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/Callandt\/Fusion2-Content\/main\/posters\/genres\/genre-comedy.png",
+              "title" : "Comedy"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "includeGenres" : [
+                      80
+                    ],
+                    "releaseChannel" : "digital",
+                    "releaseStatus" : "released",
+                    "sortBy" : "popularity.desc",
+                    "type" : "movie"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "B4750BA0-E618-4952-B3DB-4FB6D9ECDDB8",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/Callandt\/Fusion2-Content\/main\/posters\/genres\/genre-crime.png",
+              "title" : "Crime"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "includeGenres" : [
+                      99
+                    ],
+                    "releaseChannel" : "digital",
+                    "releaseStatus" : "released",
+                    "sortBy" : "popularity.desc",
+                    "type" : "movie"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "3E5BCC26-C585-445A-A3DB-D994165B21B1",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/Callandt\/Fusion2-Content\/main\/posters\/genres\/genre-documentary.png",
+              "title" : "Documentary"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "includeGenres" : [
+                      18
+                    ],
+                    "releaseChannel" : "digital",
+                    "releaseStatus" : "released",
+                    "sortBy" : "popularity.desc",
+                    "type" : "movie"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "35C79067-7DDE-4EDF-B264-85B0D015902C",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/Callandt\/Fusion2-Content\/main\/posters\/genres\/genre-drama.png",
+              "title" : "Drama"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "includeGenres" : [
+                      14
+                    ],
+                    "releaseChannel" : "digital",
+                    "releaseStatus" : "released",
+                    "sortBy" : "popularity.desc",
+                    "type" : "movie"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "6D6D9E13-047E-42F2-82CC-8529D8FB74F1",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/Callandt\/Fusion2-Content\/main\/posters\/genres\/genre-fantasy.png",
+              "title" : "Fantasy"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "includeGenres" : [
+                      36
+                    ],
+                    "releaseChannel" : "digital",
+                    "releaseStatus" : "released",
+                    "sortBy" : "popularity.desc",
+                    "type" : "movie"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "F124AA5C-8E6C-40DD-BE06-A69DEF47A3C2",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/Callandt\/Fusion2-Content\/main\/posters\/genres\/genre-historical.png",
+              "title" : "Historical"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "includeGenres" : [
+                      27
+                    ],
+                    "releaseChannel" : "digital",
+                    "releaseStatus" : "released",
+                    "sortBy" : "popularity.desc",
+                    "type" : "movie"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "9D830766-3E40-4A87-8A56-7152A3CFE54F",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/Callandt\/Fusion2-Content\/main\/posters\/genres\/genre-horror.png",
+              "title" : "Horror"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "includeGenres" : [
+                      10751
+                    ],
+                    "releaseChannel" : "digital",
+                    "releaseStatus" : "released",
+                    "sortBy" : "popularity.desc",
+                    "type" : "movie"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "3D9A090B-C98B-4172-849A-A0A22221C435",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/Callandt\/Fusion2-Content\/main\/posters\/genres\/genre-kids.png",
+              "title" : "Kids"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "includeGenres" : [
+                      9648
+                    ],
+                    "releaseChannel" : "digital",
+                    "releaseStatus" : "released",
+                    "sortBy" : "popularity.desc",
+                    "type" : "movie"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "2775C164-384E-48F5-A10F-F2950EC4DFA6",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/Callandt\/Fusion2-Content\/main\/posters\/genres\/genre-mystery.png",
+              "title" : "Mystery"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "includeGenres" : [
+                      10749
+                    ],
+                    "releaseChannel" : "digital",
+                    "releaseStatus" : "released",
+                    "sortBy" : "popularity.desc",
+                    "type" : "movie"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "98C29805-3CCD-49D1-B0C8-AB1BDA128A9A",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/Callandt\/Fusion2-Content\/main\/posters\/genres\/genre-romance.png",
+              "title" : "Romance"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "includeGenres" : [
+                      878
+                    ],
+                    "releaseChannel" : "digital",
+                    "releaseStatus" : "released",
+                    "sortBy" : "popularity.desc",
+                    "type" : "movie"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "9D249746-CA81-42E6-8E89-4AC1F896F2F6",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/Callandt\/Fusion2-Content\/main\/posters\/genres\/genre-sci-fi.png",
+              "title" : "Sci-Fi"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "includeGenres" : [
+                      53
+                    ],
+                    "releaseChannel" : "digital",
+                    "releaseStatus" : "released",
+                    "sortBy" : "popularity.desc",
+                    "type" : "movie"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "45A710F5-59ED-4573-8F00-56191E27D011",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/Callandt\/Fusion2-Content\/main\/posters\/genres\/genre-thriller.png",
+              "title" : "Thriller"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "includeGenres" : [
+                      10752
+                    ],
+                    "releaseChannel" : "digital",
+                    "releaseStatus" : "released",
+                    "sortBy" : "popularity.desc",
+                    "type" : "movie"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "7BBEC131-301E-461E-9E3D-6B184C06A648",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/Callandt\/Fusion2-Content\/main\/posters\/genres\/genre-war.png",
+              "title" : "War"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "includeGenres" : [
+                      37
+                    ],
+                    "releaseChannel" : "digital",
+                    "releaseStatus" : "released",
+                    "sortBy" : "popularity.desc",
+                    "type" : "movie"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "AD40F2C8-3E6E-4DD8-9FBB-2A64D918A52C",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/Callandt\/Fusion2-Content\/main\/posters\/genres\/genre-western.png",
+              "title" : "Western"
+            }
+          ]
+        }
+      },
+      "id" : "collection.78960297-E08B-4774-A84D-5D077DD05BAB",
+      "title" : "Movie Genres",
+      "type" : "collection.row"
+    }
+  ]
+}
